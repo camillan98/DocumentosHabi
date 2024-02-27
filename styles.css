@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #1904b9ba;
+    color: #1904b9ba;
+    padding: 20px 0;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+main {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #4400ffc6;
+    color: #0600b4c1;
+    text-align: center;
+    padding: 20px 0;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #0000e5; /* Cambia el color aquí */
+    font-weight: 500;
+}
+
+.logo img {
+    transition: transform 0.3s ease; /* Animación de transformación del logo */
+}
+
+.logo img:hover {
+    transform: scale(1.1); /* Aumentar el tamaño del logo al pasar el ratón sobre él */
+}
+
+.card {
+    transition: transform 0.3s ease; /* Animación de transformación de las tarjetas */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Desplazar las tarjetas hacia arriba al pasar el ratón sobre ellas */
+}
+
+.btn {
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo de los botones */
+}
+
+.btn:hover {
+    background-color: #3702997d; /* Cambio de color de fondo al pasar el ratón sobre los botones */
+}
+/* Estilo para los recuadros de documentos */
+.documento {
+    background-color: #5d007a; /* Color de fondo */
+    height: 100%; /* Altura igual para todos los recuadros */
+}
+
+/* Estilo para el contenido del documento */
+.documento .card-body {
+    min-height: 150px; /* Altura mínima para el cuerpo del recuadro */
+}
+/* Estilo para los recuadros de documentos */
+.documento {
+    background-color: #0018a0f4; /* Color de fondo */
+    height: 100%; /* Altura igual para todos los recuadros */
+}
+/* Estilos para los documentos generados dinámicamente */
+.documentos-container .documento {
+    background-color: #9600c874; /* Color de fondo */
+    height: 100%; /* Altura igual para todos los recuadros */
+    /* Otros estilos necesarios */
+}
+.morado {
+    background-color: #640082a9; /* Morado claro */
+}
+
+.img-fluid {
+    max-width: 40%;
+    height: auto;
+}
+.blanco {
+    color: rgb(163, 18, 156); /* Cambia "purple" por el tono de morado que desees */
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-pKtfi+Rz8hD+TZx7hpfIh77GnFSvSly73BnqZf6wR5gDV1Mg05DMkKU2LjvIRx9DfV7W5kzWzk/6rHKglMvU2g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
